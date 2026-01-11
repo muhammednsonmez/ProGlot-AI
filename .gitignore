@@ -1,0 +1,9 @@
+.env
+*.env
+.venv/
+__pycache__/
+*.pyc
+chat_history.json
+history_*.json
+*.json
+.DS_Store
