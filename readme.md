@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### 4. Configure Environment Variables
 Rename test.env to .env and add your API key:
 
-GEMINI_API_KEY=your_actual_api_key_here
+GEMINI_API_KEY=your_actual_api_key_here\
 GEMINI_MODEL=gemini-1.5-flash
 
 ### 5. Run the Application
