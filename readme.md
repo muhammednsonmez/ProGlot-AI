@@ -14,7 +14,7 @@ Unlike generic chatbots, ProGlot utilizes a **Pure LLM Architecture** with **Rol
 ## Tech Stack
 
 * **Core:** Python 3.10+
-* **LLM Engine:** Google Gemini 1.5 Flash (via `google-generativeai`)
+* **LLM Engine:** Google Gemini 2.5 Flash (via `google-generativeai`)
 * **Frontend:** Streamlit
 * **State Persistence:** JSON-based local storage
 * **Configuration:** Python-dotenv
