@@ -52,8 +52,10 @@ streamlit run app.py
 ```
 
 ### 🧩 Architectural Insights
-The project follows a Stateful-Frontend pattern\
-1.  Initialization: The app checks for existing language-specific history files.\
-2.  Prompt Engineering: Pedagogical rules are injected via f-strings into the System Instruction.\
-3.  Inference Loop: User input is combined with the optimized context window and sent to the inference engine.\
-4.  Atomic Persistence: Responses are immediately committed to disk to prevent data loss.
+
+The project follows a Stateful-Frontend pattern:
+
+1. **Initialization:** The app checks for existing language-specific history files.
+2. **Prompt Engineering:** Pedagogical rules are injected via f-strings into the System Instruction.
+3. **Inference Loop:** User input is combined with the optimized context window and sent to the inference engine.
+4. **Atomic Persistence:** Responses are immediately committed to disk to prevent data loss.
